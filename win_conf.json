@@ -1,0 +1,324 @@
+{
+"annotations_config": {
+    "0": {
+	"prev_lable": "0",
+	"curr_lable": "0",
+	"is_char":false
+	},
+    "1": 
+	{
+	"prev_lable":"1",
+	"curr_lable":"1",
+	"is_char":false
+	},
+    "2": 
+	{
+	"prev_lable":"2",
+	"curr_lable":"2",
+	"is_char":false
+	},
+    "3":
+	{
+	"prev_lable":"3",
+	"curr_lable":"3",
+	"is_char":false
+	},
+    "4":
+	{
+	"prev_lable":"4",
+	"curr_lable":"4",
+	"is_char":false
+	},
+    "5":
+	{
+	"prev_lable":"5",
+	"curr_lable":"5",
+	"is_char":false
+	},
+    "6":
+	{
+	"prev_lable":"6",
+	"curr_lable":"6",
+	"is_char":false
+	},
+    "7":
+	{
+	"prev_lable":"7",
+	"curr_lable":"7",
+	"is_char":false
+	},
+    "8":
+	{
+	"prev_lable":"8",
+	"curr_lable":"8",
+	"is_char":false
+	},
+    "9":
+	{
+	"prev_lable":"9",
+	"curr_lable":"9",
+	"is_char":false
+	},
+    "ALEF":
+	{
+	"prev_lable":"A",
+	"curr_lable":"10",
+	"is_char":true
+	},
+    "B":
+	{
+	"prev_lable":"B",
+	"curr_lable":"11",
+	"is_char":true
+	},
+    "SIN":
+	{
+	"prev_lable":"C",
+	"curr_lable":"12",
+	"is_char":true
+	},
+    "DAL":
+	{
+	"prev_lable":"D",
+	"curr_lable":"13",
+	"is_char":true
+	},
+    "EIN":
+	{
+	"prev_lable":"E",
+	"curr_lable":"14",
+	"is_char":true
+	},
+    "GHAF":
+	{
+	"prev_lable":"G",
+	"curr_lable":"15",
+	"is_char":true
+	},
+    "H":
+	{
+	"prev_lable":"H",
+	"curr_lable":"16",
+	"is_char":true
+	},
+    "JIM":
+	{
+	"prev_lable":"J",
+	"curr_lable":"17",
+	"is_char":true
+	},
+    "LAM":
+	{
+	"prev_lable":"L",
+	"curr_lable":"18",
+	"is_char":true
+	},
+    "MIM":
+	{
+	"prev_lable":"M",
+	"curr_lable":"19",
+	"is_char":true
+	},
+    "NUN":
+	{
+	"prev_lable":"N",
+	"curr_lable":"20",
+	"is_char":true
+	},
+    "SAD":
+	{
+	"prev_lable":"S",
+	"curr_lable":"21",
+	"is_char":true
+	},
+    "TA":
+	{
+	"prev_lable":"T",
+	"curr_lable":"22",
+	"is_char":true
+	},
+    "V":
+	{
+	"prev_lable":"V",
+	"curr_lable":"23",
+	"is_char":true
+	},
+    "Y":
+	{
+	"prev_lable":"Y",
+	"curr_lable":"24",
+	"is_char":true
+	},
+    "ML":
+	{
+	"prev_lable":"Z",
+	"curr_lable":"25",
+	"is_char":true
+	},
+    "T":
+	{
+	"prev_lable":"X",
+	"curr_lable":"26",
+	"is_char":true
+	},
+    "SHIN":
+	{
+	"prev_lable":"W",
+	"curr_lable":"27",
+	"is_char":true
+	},
+    "P":
+	{
+	"prev_lable":"P",
+	"curr_lable":"28",
+	"is_char":true
+	},
+    "TH":
+	{
+	"prev_lable":"Q",
+	"curr_lable":"29",
+	"is_char":true
+	},
+    "S":
+	{
+	"prev_lable":"I",
+	"curr_lable":"30",
+	"is_char":true
+	},
+    "D": 
+	{
+	"prev_lable":"U",
+	"curr_lable":"31",
+	"is_char":true
+	},
+    "Z": 
+	{
+	"prev_lable":"R",
+	"curr_lable":"32",
+	"is_char":true
+	},
+    "F": 
+	{
+	"prev_lable":"F",
+	"curr_lable":"33",
+	"is_char":true
+	},
+    "KAF": 
+	{
+	"prev_lable":"K",
+	"curr_lable":"34",
+	"is_char":true
+	},
+    "GAF": 
+	{
+	"prev_lable":"O",
+	"curr_lable":"35",
+	"is_char":true
+	},
+    "TSH": 
+	{
+	"prev_lable":"a",
+	"curr_lable":"36",
+	"is_char":true
+	}
+  },
+  "components": {
+    "backgrounds": ".\\components\\backgrounds\\*.jpg",
+    "dirt": ".\\components\\dirt\\*.png",
+    "letters": ".\\components\\letters\\*.png",
+    "mini_numbers": ".\\components\\mini_numbers\\*.png",	
+    "gaf_mini_numbers": ".\\components\\gaf_mini_numbers\\*.png",
+    "misc": ".\\components\\misc\\*.png",
+    "numbers": ".\\components\\numbers\\*.png",
+    "plates": ".\\components\\plates\\*.png"
+  },
+  "generator_config": {
+    "apply_dirt": true,
+    "apply_misc_noise": true,
+    "background_load_limit": 5000,
+    "num_out_img": 5000
+  },
+  "noise_config": {
+    "dirt_probability": 0.25,
+    "misc_bounds": [
+      {
+        "x_max": 138,
+        "x_min": 38,
+        "y_max": 150,
+        "y_min": 50
+      },
+      {
+        "x_max": 138,
+        "x_min": 38,
+        "y_max": 525,
+        "y_min": 275
+      },
+      {
+        "x_max": 138,
+        "x_min": 38,
+        "y_max": 750,
+        "y_min": 650
+      }
+    ],
+    "misc_probability": 0.75
+  },
+  "plate_config": {
+    "letter_offset": [
+      90,
+      305
+    ],
+    "mini_numbers_offset": [
+      [
+        105,
+        672
+      ],
+      [
+        105,
+        747
+      ]
+    ],
+    "numbers_offset": [
+      [
+        90,
+        115
+      ],
+      [
+        90,
+        195
+      ],
+      [
+        90,
+        420
+      ],
+      [
+        90,
+        500
+      ],
+      [
+        90,
+        580
+      ]
+    ]
+  },
+"transformations_config": {
+	"do_tranform": true,
+	"pre_distortion": true,
+    "max_dalpha": 45,
+    "max_dbeta": 45,
+    "max_dgamma": 10,
+    "max_dz": 7,
+	"use_bg": false,
+	"use_brightening":true,
+	"max_bright_value": 20,
+	"use_tiling": true,	
+	"use_tiling_method": 2,	
+	"use_tiling_scale_factor": 0.8,
+	"min_plate_width": 100,
+	"plate_width_factor": 1.2,
+	"cam_step": 80,
+    "output_size": [
+      800,
+      800
+    ]
+  }
+}

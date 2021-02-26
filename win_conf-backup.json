@@ -1,0 +1,239 @@
+{
+"annotations_config": {
+    "0": [
+      0,
+      false
+    ],
+    "1": [
+      1,
+      false
+    ],
+    "2": [
+      2,
+      false
+    ],
+    "3": [
+      3,
+      false
+    ],
+    "4": [
+      4,
+      false
+    ],
+    "5": [
+      5,
+      false
+    ],
+    "6": [
+      6,
+      false
+    ],
+    "7": [
+      7,
+      false
+    ],
+    "8": [
+      8,
+      false
+    ],
+    "9": [
+      9,
+      false
+    ],
+    "alef": [
+      10,
+      true
+    ],
+    "b": [
+      104,
+      true
+    ],
+    "C": [
+      112,
+      true
+    ],
+    "D": [
+      120,
+      true
+    ],
+    "E": [
+      128,
+      true
+    ],
+    "G": [
+      136,
+      true
+    ],
+    "H": [
+      144,
+      true
+    ],
+    "J": [
+      152,
+      true
+    ],
+    "L": [
+      160,
+      true
+    ],
+    "M": [
+      168,
+      true
+    ],
+    "N": [
+      176,
+      true
+    ],
+    "S": [
+      184,
+      true
+    ],
+    "T": [
+      192,
+      true
+    ],
+    "V": [
+      200,
+      true
+    ],
+    "Y": [
+      8,
+      true
+    ],
+    "Z": [
+      8,
+      true
+    ],
+    "X": [
+      8,
+      true
+    ],
+    "W": [
+      8,
+      true
+    ],
+    "P": [
+      8,
+      true
+    ],
+    "Q": [
+      8,
+      true
+    ],
+    "I": [
+      8,
+      true
+    ],
+    "U": [
+      8,
+      true
+    ],
+    "R": [
+      8,
+      true
+    ],
+    "F": [
+      8,
+      true
+    ],
+    "K": [
+      8,
+      true
+    ],
+    "O": [
+      8,
+      true
+    ],
+    "a": [
+      8,
+      true
+    ]
+  },
+  "components": {
+    "backgrounds": ".\\components\\backgrounds\\*.jpg",
+    "dirt": ".\\components\\dirt\\*.png",
+    "letters": ".\\components\\letters\\*.png",
+    "mini_numbers": ".\\components\\mini_numbers\\*.png",
+    "misc": ".\\components\\misc\\*.png",
+    "numbers": ".\\components\\numbers\\*.png",
+    "plates": ".\\components\\plates\\*.png"
+  },
+  "generator_config": {
+    "apply_dirt": false,
+    "apply_misc_noise": false,
+    "background_load_limit": 25,
+    "num_out_img": 25
+  },
+  "noise_config": {
+    "dirt_probability": 0.25,
+    "misc_bounds": [
+      {
+        "x_max": 138,
+        "x_min": 38,
+        "y_max": 150,
+        "y_min": 50
+      },
+      {
+        "x_max": 138,
+        "x_min": 38,
+        "y_max": 525,
+        "y_min": 275
+      },
+      {
+        "x_max": 138,
+        "x_min": 38,
+        "y_max": 750,
+        "y_min": 650
+      }
+    ],
+    "misc_probability": 0.75
+  },
+  "plate_config": {
+    "letter_offset": [
+      90,
+      305
+    ],
+    "mini_numbers_offset": [
+      [
+        105,
+        672
+      ],
+      [
+        105,
+        747
+      ]
+    ],
+    "numbers_offset": [
+      [
+        90,
+        115
+      ],
+      [
+        90,
+        195
+      ],
+      [
+        90,
+        420
+      ],
+      [
+        90,
+        500
+      ],
+      [
+        90,
+        580
+      ]
+    ]
+  },
+  "transformations_config": {
+    "max_dalpha": 0.78539816339750002,
+    "max_dbeta": 0.78539816339750002,
+    "max_dgamma": 0.52359877559833334,
+    "max_dz": 3.5,
+    "output_size": [
+      1024,
+      1024
+    ]
+  }
+}

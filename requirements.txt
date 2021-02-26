@@ -1,0 +1,6 @@
+numpy
+opencv-python
+json2xml
+psutil
+jsonnet
+tqdm
